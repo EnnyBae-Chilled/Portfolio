@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7d2273f2.css",
+    "main.js": "/Portfolio/static/js/main.51a023f1.js",
+    "static/js/453.7396c4ca.chunk.js": "/Portfolio/static/js/453.7396c4ca.chunk.js",
+    "static/media/Propel.png": "/Portfolio/static/media/Propel.eb6cdb2b287641290cca.png",
+    "static/media/20240312003851_IMG_9090.jpg": "/Portfolio/static/media/20240312003851_IMG_9090.887499d8391d9f9e5657.jpg",
+    "static/media/T0-do.png": "/Portfolio/static/media/T0-do.aa8a1c9799df6030f469.png",
+    "static/media/profile-pic.png": "/Portfolio/static/media/profile-pic.56541f2edcaaaad29f8c.png",
+    "static/media/calculator.png": "/Portfolio/static/media/calculator.6aae09a6578848607591.png",
+    "static/media/weather-app.webp": "/Portfolio/static/media/weather-app.3155941319e09849b0c4.webp",
+    "index.html": "/Portfolio/index.html",
+    "static/media/programming-skills.svg": "/Portfolio/static/media/programming-skills.d19983a9bee884277ffa.svg",
+    "static/media/projects.svg": "/Portfolio/static/media/projects.54ebae5792a4cb4570b2.svg",
+    "static/media/interests.svg": "/Portfolio/static/media/interests.bd7a55a421698fec8f68.svg",
+    "static/media/education.svg": "/Portfolio/static/media/education.6b1566b0645e0d39ba78.svg",
+    "static/media/blob (2).svg": "/Portfolio/static/media/blob (2).4c236a4f2dc3e05c2c3d.svg",
+    "static/media/work-history.svg": "/Portfolio/static/media/work-history.e9753b5c321b2acc1088.svg",
+    "static/media/blob-4.svg": "/Portfolio/static/media/blob-4.3185912ad11f2f276599.svg",
+    "main.7d2273f2.css.map": "/Portfolio/static/css/main.7d2273f2.css.map",
+    "main.51a023f1.js.map": "/Portfolio/static/js/main.51a023f1.js.map",
+    "453.7396c4ca.chunk.js.map": "/Portfolio/static/js/453.7396c4ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d2273f2.css",
+    "static/js/main.51a023f1.js"
+  ]
+}
