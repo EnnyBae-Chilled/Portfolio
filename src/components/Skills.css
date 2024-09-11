@@ -1,0 +1,129 @@
+.skills-section {
+    text-align: center;
+    padding: 50px;
+}
+  
+.section-title {
+    font-size: 24px;
+    color: #888;
+}
+  
+.main-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+  
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+  
+.skills-column {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+  
+.skills-column h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.skills-column ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.skills-column li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+  
+.skills-column li:last-child {
+    border-bottom: none;
+}
+  
+.skill-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+  
+.battery-container {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.battery-cathode {
+    position: absolute;
+    top: -5px; /* Adjust the positioning as needed */
+    right: 0;
+    width: 10px;
+    height: 5px;
+    background-color: #333;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+  
+.battery {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fefefe;
+    border-radius: 5px;
+    overflow: hidden;
+}
+  
+.battery-fill {
+    background-color: rgb(26, 26, 26);
+    height: 100%;
+    width: 0; /* Start with an empty battery */
+    transition: width 0.3s ease;
+}
+  
+.battery-container:hover .battery-fill {
+    width: 100%; /* Fill the battery on hover */
+}
+  
+.skill-level-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color:#c19400;;
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease;
+}
+  
+.battery-container:hover .skill-level-text {
+    opacity: 1; /* Show the text on hover */
+}
+
+.date-range-container {
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+  
+.date-range {
+    font-size: 14px;
+    color: #c19400;
+}

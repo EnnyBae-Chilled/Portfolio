@@ -1,0 +1,48 @@
+.footer {
+    background-image: url("../assets/blob-4.svg");
+    background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 40vh;
+    position: relative;
+    color: #ffc107; /* Text color matching the image */
+    display: flex;
+    align-items: flex-end; /* Align content at the bottom */
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom of the footer */
+    left: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+  
+.footer-left {
+    font-size: 20px;
+}
+.footer-right {
+    display: flex;
+    gap: 20px;
+}
+  
+.footer-right a {
+    font-size: 24px;
+    color: #c19400; /* LinkedIn icon color */
+    transition: color 0.3s ease;
+}
+  
+.footer-right a:hover {
+    color: #ffc107; /* Hover color */
+}
+
+/* @media (max-width: 768px) {
+    .footer{
+        background-size: contain;
+    }
+} */
